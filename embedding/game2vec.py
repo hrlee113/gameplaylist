@@ -4,12 +4,16 @@ from embedding.text_ae import ae_run
 from embedding.sequence_prod2vec import prod2vec_run
 from utils import load_pickle, save_pickle
 
+'''
+게임 이미지 & 장르 & sequence feature
+'''
+
 def game2vec(all_review, game):
     # ----- image vector
     _ = cae_run(game)
     # ----- genre(text) vector
     _ = ae_run(game)
-    # ----- sequential vector
+    # ----- sequence vector
     _ = prod2vec_run(all_review)
     
     img_vecs = load_pickle('data/img_vecs.pickle')
