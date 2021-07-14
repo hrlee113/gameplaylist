@@ -95,11 +95,11 @@ def evaluate(model, test_loader, optimizer, criterion, DEVICE):
 
     test_loss /= len(test_loader)
     return test_loss, real_image, gen_image
-
   
 '''
 Run
 '''
+
 def cae_run(game):
     labels, images = get_labels_images(game)
     dataset = CustomDataset(x_data = images, y_data = labels)
