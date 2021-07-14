@@ -5,7 +5,7 @@ from embedding.sequence_prod2vec import prod2vec_run
 from utils import load_pickle, save_pickle
 
 '''
-게임 이미지 & 장르 & sequence feature
+게임 이미지 & 장르 & sequence 임베딩 생성
 '''
 
 def game2vec(all_review, game):
