@@ -8,6 +8,7 @@ from utils import save_pickle, get_labels_images, torch_device, CustomDataset
 '''
 Convolutional AutoEncoder
 '''
+
 class AE(nn.Module):
   def __init__(self):
     super(AE, self).__init__()
@@ -61,7 +62,6 @@ class AE(nn.Module):
     decoded = self.decoder(decoded.view(-1, 256, 7, 7))
     return encoded, decoded.view(-1, 3 * 28 * 28)
 
-
 def train(model, train_loader, optimizer, criterion, DEVICE):
     model.train() # 모델을 학습상태로 지정
     train_loss = 0
@@ -76,7 +76,6 @@ def train(model, train_loader, optimizer, criterion, DEVICE):
         train_loss += loss.item()
         train_loss /= len(train_loader)
     return train_loss
-
 
 def evaluate(model, test_loader, optimizer, criterion, DEVICE):
     model.eval() # 모델을 평가상태로 지정
