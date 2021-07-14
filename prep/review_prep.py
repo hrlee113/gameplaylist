@@ -2,6 +2,10 @@ import os
 import re
 import pandas as pd
 
+'''
+Load
+'''
+
 def reviewloader(filename='steam_reviews_clean_result'):
     train = pd.read_csv(os.path.join('data', '{}_train_v2.csv'.format(filename)), low_memory=False)
     val = pd.read_csv(os.path.join('data', '{}_val_v2.csv'.format(filename)))
