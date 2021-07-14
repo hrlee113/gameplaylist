@@ -3,7 +3,9 @@ import torch
 import torch.nn as nn
 from model.model_prep import run
 
-
+'''
+Model
+'''
 
 class NCF(nn.Module):
     def __init__(self, user_num, factor_num):
@@ -36,7 +38,11 @@ class NCF(nn.Module):
         out = self.FC_layer(concat_two_latent_vactors)
         return out.view(-1)
 
-
+    
+'''
+Run
+'''
+    
 def ncf_run(train_modified, val_modified, test_modified, gamevec):
     test_loss, test_accuracy, test_auc, test_f1 = run('NCF', train_modified, val_modified, test_modified, gamevec)
     return test_loss, test_accuracy, test_auc, test_f1
