@@ -13,7 +13,9 @@ from model.ncf import NCF
 from model.nmf import GMF_and_NCF
 from model.dcn import DCN_PARALLEL, DCN_STACKED
 
-# ============== Collaborative Filtering ==============
+'''
+GMF / NCF / NMF / DCN
+'''
 
 class GMFNCFData(Dataset):
     def __init__(self, user_id_idx_li, game_id_idx_li, label_li):
@@ -178,7 +180,9 @@ def run(model_text, train_modified, val_modified, test_modified, gamevec, model_
     return test_loss, test_accuracy, test_auc, test_f1
 
 
-# ============== DeepFM ==============
+'''
+DeepFM
+'''
 
 def get_modified_data(X_train, X_valid, X_test, continuous_fields, categorical_fields):
     # 인코딩 이후의 데이터에 대해 각 칼럼이 본래 인코딩 이전에 몇 번째 field에 속했었는지에 대한 정보
@@ -256,3 +260,7 @@ def get_data(train_modified, val_modified, test_modified, gamevec, CONT_FIELDS, 
         .shuffle(10000).batch(BATCH_SIZE)
 
     return train_ds, val_ds, test_ds, field_dict, field_index
+
+
+
+
