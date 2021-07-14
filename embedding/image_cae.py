@@ -98,7 +98,7 @@ def evaluate(model, test_loader, optimizer, criterion, DEVICE):
 
   
 '''
-run
+Run
 '''
 def cae_run(game):
     labels, images = get_labels_images(game)
