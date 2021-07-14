@@ -15,3 +15,7 @@ def reviewloader(filename='steam_reviews_clean_result'):
 def allreviewloader(filename='steam_reviews_clean_result_v2.csv'):
     data = pd.read_csv(os.path.join('data', filename))
     return data
+
+
+
+
