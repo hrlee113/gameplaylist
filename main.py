@@ -13,15 +13,20 @@ from model.deepfm import deepfm_run
 
 
 if __name__ == '__main__':
-    # 1. Data load
+    
+    '''
+    1. Data load
+    '''
     # ----- review (게임, 유저, 리뷰가 병합된 데이터)
     train_modified, val_modified, test_modified = dataloader() # split version
     # all_review = allreviewloader()
     # ----- game (LDA를 위한 게임 메타정보 데이터)
     game = gameloader()
 
-
-    # 2. NLP
+    
+    '''
+    2. NLP
+    '''
     # ----- LDA
     content_topic = content_lda(game); genre_topic = genre_lda(game)
     train_modified = review_lda(train_modified, content_topic, genre_topic)
@@ -32,14 +37,17 @@ if __name__ == '__main__':
     val_modified = sentiment_analysis(val_modified)
     test_modified = sentiment_analysis(test_modified)
 
-
-    # 3. Game Embedding
+    
+    '''
+    3. Game Embedding
+    '''
     # _ = game2vec(all_review, game)
     gamevec = load_pickle('norm_game2vec.pickle')
 
-
-    # 4. model
-
+    
+    '''
+    4. model
+    '''
     # ----- gmf
     _, gmf_acc, gmf_auc, gmf_f1 = gmf_run(train_modified, val_modified, test_modified, gamevec)
     print('========== GMF Score ==========')
@@ -81,3 +89,8 @@ if __name__ == '__main__':
     print('ACC : {:.4f}'.format(dcn_s_acc))
     print('AUC : {:.4f}'.format(dcn_s_auc))
     print('F1 Score : {:.4f}'.format(dcn_s_f1))
+    
+    
+    
+    
+    
