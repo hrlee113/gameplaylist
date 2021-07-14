@@ -31,3 +31,8 @@ def prod2vec_run(all_review):
 
     # 결과(장르 벡터) 저장
     save_pickle(seq_vecs, 'data/seq_vecs.pickle')
+
+    
+    
+    
+    
