@@ -4,6 +4,10 @@ import random
 from gensim.models import Word2Vec
 from utils import save_pickle
 
+'''
+게임 sequence 임베딩 생성 : word2vec
+'''
+
 def prod2vec_run(all_review):
 
     # 선호도를 분류한 데이터 전처리
