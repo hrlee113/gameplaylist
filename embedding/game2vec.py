@@ -1,4 +1,3 @@
-
 import numpy as np
 from embedding.image_cae import cae_run
 from embedding.text_ae import ae_run
