@@ -5,22 +5,32 @@ from sklearn.metrics import roc_auc_score, f1_score
 import torch
 from torch.utils.data import Dataset
 
-
+'''
+Metric
+'''
 
 def roc_auc_compute_fn(y_pred, y_true):
     return roc_auc_score(y_true, y_pred)
-
 def f1_score_compute_fn(y_pred, y_true):
     return f1_score(y_true, y_pred)
+
+
+'''
+Pickle
+'''
 
 def load_pickle(filename):
     with open(filename, 'rb') as f:
         res = pickle.load(f)
     return res
-
 def save_pickle(data, filename):
     with open(filename, 'wb') as f:
         pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
+
+        
+'''
+Embedding
+'''
 
 def get_labels_images(game):
     # 이미지 데이터 로드
@@ -40,16 +50,8 @@ def get_labels_images(game):
         image = np.swapaxes(image, 1, 3)
         labels.append(game_id)
         images.append(image)
-    
     labels = np.array(labels); images = np.concatenate(images)
     return labels, images
-
-def torch_device():
-    if torch.cuda.is_available():
-        DEVICE = torch.device('cuda')
-    else:
-        DEVICE = torch.device('cpu')
-    return DEVICE
 
 class CustomDataset(Dataset):
   # 데이터 정의
@@ -68,3 +70,19 @@ class CustomDataset(Dataset):
       x = torch.FloatTensor(self.x_data[idx])
       y = torch.LongTensor(self.y_data[idx])[0]
       return x, y
+
+
+'''
+Modeling
+'''
+
+def torch_device():
+    if torch.cuda.is_available():
+        DEVICE = torch.device('cuda')
+    else:
+        DEVICE = torch.device('cpu')
+    return DEVICE
+
+
+
+
