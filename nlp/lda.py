@@ -20,6 +20,7 @@ def make_dic_corpus(texts):
     corpus = [dic.doc2bow(doc) for doc in docs]
     return dic, corpus
 
+
 def topic_lda(text):
     dic, corpus = make_dic_corpus(text)
     train_corpus, valid_corpus = train_test_split(corpus, test_size=0.1, random_state=1234)
@@ -43,6 +44,7 @@ def topic_lda(text):
                 break
     return topic, topic_table
 
+
 def genre_lda(game):
     # 게임 장르 LDA -> 18개의 topic (장르 묶음) 생성
     removed_data = clear_genres(game)
@@ -59,6 +61,7 @@ def genre_lda(game):
     for i in range(len(genre_topic)):
         genre_topic.loc[i, 'topic'] = list(f.iloc[:,genre_topic.loc[i, 'topic_num']])
     return genre_topic
+    
     
 def content_lda(game):
     # 게임 설명 LDA -> 110개의 topic (설명 단어 묶음) 생성
