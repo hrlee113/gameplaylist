@@ -4,7 +4,9 @@ tf.keras.backend.set_floatx('float32')
 from tensorflow.keras.metrics import BinaryAccuracy, AUC, Precision, Recall
 from model.model_prep import get_data
 
-
+'''
+Model
+'''
 
 class FM_layer(tf.keras.layers.Layer):
     def __init__(self, num_feature, num_field, embedding_size, field_index, mul_feature):
@@ -72,7 +74,6 @@ class FM_layer(tf.keras.layers.Layer):
         multimodal_inters = tf.reshape(multiintersections, [-1,1]) # (batch_size, 1) # 게임 임베딩 벡터의 비선형 관계 term
 
         y_fm = tf.concat([multimodal_terms, multimodal_inters, linear_terms, interactions], 1) # (batch_size, 4)
-
         return y_fm, new_inputs # new_inputs: Deep Component의 input으로 쓰일 개체
 
 
@@ -117,9 +118,7 @@ class DeepFM(tf.keras.Model):
         y_pred = tf.concat([y_fm, y_deep], 1)
         y_pred = self.final(y_pred)
         y_pred = tf.reshape(y_pred, [-1, ])
-
         return y_pred
-
 
 def train_on_batch(model, optimizer, acc, auc, pc, rc, x_train, y_train): # Batch 단위 학습
     with tf.GradientTape() as tape:
@@ -136,14 +135,15 @@ def train_on_batch(model, optimizer, acc, auc, pc, rc, x_train, y_train): # Batc
     auc.update_state(y_train, y_pred)
     pc.update_state(y_train, y_pred)
     rc.update_state(y_train, y_pred)
-
     return loss
-
 
 def f1_score(precision, recall, eps=1e-6):
     f1 = (2 * precision * recall) / (precision + recall + eps)
     return f1
 
+'''
+Run
+'''
 
 def deepfm_run(train_modified, val_modified, test_modified, gamevec):
     # 전체 feature
@@ -198,5 +198,9 @@ def deepfm_run(train_modified, val_modified, test_modified, gamevec):
         test_rc.update_state(y, y_pred)
     
     test_f1 = f1_score(test_pc.result().numpy(), test_rc.result().numpy())
-
     return test_acc.result().numpy(), test_auc.result().numpy(), test_f1
+    
+    
+    
+
+    
