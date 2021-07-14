@@ -3,7 +3,9 @@ import torch
 import torch.nn as nn
 from model.model_prep import run
 
-
+'''
+Model
+'''
 
 class GMF_and_NCF(nn.Module):
     def __init__(self, user_num, factor_num):
@@ -63,7 +65,14 @@ class GMF_and_NCF(nn.Module):
 
         return output.view(-1)
 
+'''
+Run
+'''
     
 def nmf_run(train_modified, val_modified, test_modified, gamevec):
     test_loss, test_accuracy, test_auc, test_f1 = run('NMF', train_modified, val_modified, test_modified, gamevec)
     return test_loss, test_accuracy, test_auc, test_f1
+
+
+
+
