@@ -6,7 +6,7 @@ from torch.utils.data import DataLoader
 from utils import save_pickle, get_labels_images, torch_device, CustomDataset
 
 '''
-Convolutional AutoEncoder
+게임 이미지 임베딩 생성 : Convolutional AutoEncoder
 '''
 
 class AE(nn.Module):
@@ -138,3 +138,8 @@ def cae_run(game):
 
     # 결과(이미지 벡터) 저장
     save_pickle(img_vecs, 'data/img_vecs.pickle')
+
+    
+    
+    
+    
