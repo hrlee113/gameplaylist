@@ -6,7 +6,10 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 from utils import save_pickle, torch_device, CustomDataset
 
-# AutoEncoder
+'''
+게임 텍스트(장르) 임베딩 생성 : AutoEncoder
+'''
+
 class AE(nn.Module):
     def __init__(self):
       super(AE, self).__init__()
@@ -71,6 +74,9 @@ def evaluate(model, train_loader, DEVICE):
     decoded_result = np.concatenate(decoded_result)
     return encoded_result, decoded_result
 
+'''
+Run
+'''
 
 def ae_run(game):
     game['clean_genres'] = game['clean_genres'].apply(lambda x: eval(x))
