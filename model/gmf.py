@@ -3,7 +3,9 @@ import torch
 import torch.nn as nn
 from model.model_prep import run
 
-
+'''
+Model
+'''
 
 class GMF(nn.Module):
     def __init__(self, user_num, factor_num):
@@ -36,7 +38,14 @@ class GMF(nn.Module):
         out = self.FC_layer(element_wise_product)
         return out.view(-1)
 
-
+'''
+Run
+'''
+    
 def gmf_run(train_modified, val_modified, test_modified, gamevec):
     test_loss, test_accuracy, test_auc, test_f1 = run('GMF', train_modified, val_modified, test_modified, gamevec)
     return test_loss, test_accuracy, test_auc, test_f1
+
+
+
+
