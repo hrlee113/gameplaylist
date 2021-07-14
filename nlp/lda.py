@@ -8,7 +8,6 @@ nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 
 
-
 def make_dic_corpus(texts):
     # dictionary 
     docs = []
@@ -20,7 +19,6 @@ def make_dic_corpus(texts):
     # corpus
     corpus = [dic.doc2bow(doc) for doc in docs]
     return dic, corpus
-
 
 def topic_lda(text):
     dic, corpus = make_dic_corpus(text)
@@ -45,7 +43,6 @@ def topic_lda(text):
                 break
     return topic, topic_table
 
-
 def genre_lda(game):
     # 게임 장르 LDA -> 18개의 topic (장르 묶음) 생성
     removed_data = clear_genres(game)
@@ -63,7 +60,6 @@ def genre_lda(game):
         genre_topic.loc[i, 'topic'] = list(f.iloc[:,genre_topic.loc[i, 'topic_num']])
     return genre_topic
     
-
 def content_lda(game):
     # 게임 설명 LDA -> 110개의 topic (설명 단어 묶음) 생성
     removed_data = remove_title(game)
@@ -82,6 +78,9 @@ def content_lda(game):
     content_topic['1st_topic_ratio'] = content_topic['1st_topic_ratio'].astype(int)
     return content_topic
 
+'''
+Final
+'''
 
 def review_lda(review, content_topic, genre_topic):
     review['game_id'] = ''
