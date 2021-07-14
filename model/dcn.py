@@ -3,7 +3,9 @@ import torch
 import torch.nn as nn
 from model.model_prep import run
 
-
+'''
+Model
+'''
 
 class DCN_PARALLEL(nn.Module):
     def __init__(self, user_num, factor_num):
@@ -110,7 +112,9 @@ class DCN_STACKED(nn.Module):
       out = self.FC_layer(DN_out)
       return out.view(-1)
 
-
+'''
+Run
+'''
 
 def dcn_p_run(train_modified, val_modified, test_modified, gamevec):
     test_loss, test_accuracy, test_auc, test_f1 = run('DCN_PARALLEL', train_modified, val_modified, test_modified, gamevec)
