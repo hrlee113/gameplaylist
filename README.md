@@ -10,4 +10,4 @@
   
 ## :video_game: 겜플리란?  
 
-## :video_game: Presentation    
+## :checkered_flag: Presentation    
