@@ -35,7 +35,6 @@ class AE(nn.Module):
       decoded = self.decoder(encoded)
       return encoded, decoded
 
-
 def train(model, train_loader, optimizer, criterion, DEVICE):
     model.train()
     train_loss = 0
@@ -54,7 +53,6 @@ def train(model, train_loader, optimizer, criterion, DEVICE):
 
     train_loss /= len(train_loader)
     return train_loss
-
 
 def evaluate(model, train_loader, DEVICE):
     model.eval()
@@ -107,3 +105,8 @@ def ae_run(game):
 
     # 결과(장르 벡터) 저장
     save_pickle(AE_encoded_result, 'data/genres_vecs.pickle')
+
+    
+    
+    
+    
