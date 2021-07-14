@@ -6,7 +6,6 @@ import nltk
 from nltk.corpus import stopwords, opinion_lexicon
 
 
-
 def pre_sentiment(review):
     # 알파벳, 숫자만 남기기
     review_list = []
@@ -26,6 +25,7 @@ def pre_sentiment(review):
         clean_review.append(no_stops)
     return clean_review
 
+
 def extract_ugan(clean_review):
     stemmer = nltk.stem.SnowballStemmer('english')
     stemmer_words = []
@@ -34,10 +34,12 @@ def extract_ugan(clean_review):
         stemmer_words.append(words)
     return stemmer_words
 
+
 def content_len(stemmer_words):
     data = re.sub('[^a-zA-Z0-9]', ' ', stemmer_words)
     data = data.split()
     return len(data)
+
 
 def sentiment_analysis(stemmer_words):
     pos_list = set(opinion_lexicon.positive()) # dictionary에서 긍정적 단어
@@ -50,6 +52,10 @@ def sentiment_analysis(stemmer_words):
             senti -= 1
     return senti
 
+'''
+Final
+'''
+
 def sentiment_score(review):
     clean_review = pre_sentiment(review)
     stemmer_words = extract_ugan(clean_review)
@@ -61,6 +67,9 @@ def sentiment_score(review):
         score = sentiment[t] / content_length[t]
         scaled_sentiment.append(score)
     review['scaled_sentiment'] = scaled_sentiment
-    
     return review
+    
+    
+    
+    
     
