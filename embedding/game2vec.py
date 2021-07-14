@@ -22,3 +22,8 @@ def game2vec(all_review, game):
     norm_game2vec = np.concatenate([norm_seq_vecs, norm_img_vecs, norm_gen_vecs], axis = 1)
 
     _ = save_pickle(norm_game2vec, 'data/norm_game2vec.pickle')
+    
+    
+    
+    
+    
