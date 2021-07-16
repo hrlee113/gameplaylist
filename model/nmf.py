@@ -7,9 +7,9 @@ from model.model_prep import run
 Model
 '''
 
-class GMF_and_NCF(nn.Module):
+class NMF(nn.Module):
     def __init__(self, user_num, factor_num):
-        super(GMF_and_NCF, self).__init__()
+        super(NMF, self).__init__()
 
         # GMF 임베딩
         self.GMF_user_embedding = nn.Embedding(user_num, factor_num)
