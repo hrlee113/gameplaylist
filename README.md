@@ -47,6 +47,7 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
   
   
 ### Web Page  
+[:mag: Page Link](https://tobigs-steamgame.github.io/recsys/)
 #### 시연 예시1
 <table>
   <tr>
@@ -54,7 +55,7 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
   </tr>
 </table>
   
-#### 시연 예시2
+#### 시연 예시2  
 <table>
   <tr>
     <td align="left"><img src="" width="720px" alt=""/></a></td>
