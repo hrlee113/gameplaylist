@@ -6,6 +6,7 @@
     <td align="left"><img src="https://user-images.githubusercontent.com/54944069/125924022-776c40ba-3c99-49f9-b02d-d920c4750730.png" width="720px" alt=""/></a></td>
   </tr>
 </table>
+  
 Steam에서 제공하는 Multimodal 데이터를 보다 다양한 방법을 통해 이용하여 **개인화된 추천 게임플레이리스트**를 제공하는 서비스입니다.
   
 
@@ -17,6 +18,6 @@ Steam에서 제공하는 Multimodal 데이터를 보다 다양한 방법을 통�
   
 ## :checkered_flag: Contributors ##  
 투빅스 13기 - 15기  
- | <img src="" width="200" > |<img src="" width="200" >| <img src="https://user-images.githubusercontent.com/54944069/125925542-4b9ce953-c659-4382-b34d-b8a3df6c9c66.jpeg" width="200" > | <img src="" width="200" > |
+ | <img src="" width="200" > |<img src="" width="200" >| <img src="https://user-images.githubusercontent.com/54944069/125925542-4b9ce953-c659-4382-b34d-b8a3df6c9c66.jpeg" width="200" height="200" > | <img src="" width="200" > |
  | :-: | :-: | :-: | :-: |
  |  |  | [hrlee113](https://github.com/hrlee113) |  |
