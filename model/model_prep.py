@@ -14,7 +14,7 @@ from model.nmf import NMF
 from model.dcn import DCN_PARALLEL, DCN_STACKED
 
 '''
-GMF / NCF / NMF / DCN
+GMF / MLP / NMF / DCN
 '''
 
 class GMFNCFData(Dataset):
