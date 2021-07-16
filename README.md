@@ -9,13 +9,6 @@
   
 Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용하여 **개인화된 추천 게임플레이리스트**를 제공하는 서비스입니다.
   
-
-## :checkered_flag: Presentation    
-컨퍼런스 발표영상과 보고서입니다. 자세한 분석 내용은 아래 링크를 통해 확인해주세요!  
-* [![GoogleDrive Badge](https://img.shields.io/badge/REPORT-405263?style=flat-square&logo=Quip&link=https://drive.google.com/file/d/1VnYsB8k4Fxu6UFhAxuTi4m01BjoH2uwS/view?usp=sharing)]()
-* [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://youtu.be/KPS1sD_lcMc)]()
-
-
   
 ## :checkered_flag: Flow Chart   
 <table>
@@ -35,6 +28,12 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
 | DCN Parallel | ⭕ | 82.31% | 0.8463 | 0.8868 | 
 | DCN Stacked | ⭕ | 82.55% | 0.8500 | 0.8876 | 
 | DeepFM | ⭕ | 80.61% | 0.8194 | 0.8868 | 
+   
+   
+## :checkered_flag: Presentation    
+컨퍼런스 발표영상과 보고서입니다. 자세한 분석 내용은 아래 링크를 통해 확인해주세요!  
+* [![GoogleDrive Badge](https://img.shields.io/badge/REPORT-405263?style=flat-square&logo=Quip&link=https://drive.google.com/file/d/1VnYsB8k4Fxu6UFhAxuTi4m01BjoH2uwS/view?usp=sharing)]()
+* [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://youtu.be/KPS1sD_lcMc)]()
   
   
 ## :checkered_flag: Contributors ##  
