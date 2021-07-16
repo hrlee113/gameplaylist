@@ -47,21 +47,48 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
   
   
 ### Web Page  
-[:mag: Page Link](https://tobigs-steamgame.github.io/recsys/)
-#### 시연 예시1
+[:mag: Page Link](https://tobigs-steamgame.github.io/recsys/)  
+  
+#### 서비스 화면  
 <table>
   <tr>
-    <td align="left"><img src="" width="720px" alt=""/></a></td>
+    <td align="left"><img src="https://user-images.githubusercontent.com/54944069/125979454-24dd2fea-aa34-4113-a3cf-ad5c05564ea1.jpeg" width="720px" alt=""/></a></td>
+  </tr>
+</table>  
+  
+#### 선호 게임 리스트  
+<table>
+  <tr>
+    <td align="left"><img src="https://user-images.githubusercontent.com/54944069/125979349-516df9c2-ea5b-49ea-9c42-22ca3c538be7.jpeg" width="720px" alt=""/></a></td>
+  </tr>
+</table>  
+  
+#### 시연 예시1  
+<table>
+  <tr>
+    <td align="left"><img src="https://user-images.githubusercontent.com/54944069/125979290-85d1f963-7d59-4f07-947c-398f091dc1ba.jpeg" width="720px" alt=""/></a></td>
+  </tr>
+</table>
+  
+<table>
+  <tr>
+    <td align="left"><img src="https://user-images.githubusercontent.com/54944069/125979147-66b6fafb-5405-4c80-9f16-6dfd1a9240fd.jpeg" width="720px" alt=""/></a></td>
   </tr>
 </table>
   
 #### 시연 예시2  
 <table>
   <tr>
-    <td align="left"><img src="" width="720px" alt=""/></a></td>
+    <td align="left"><img src="https://user-images.githubusercontent.com/54944069/125978582-14755682-4b09-4821-a659-b200265c8f25.jpeg" width="720px" alt=""/></a></td>
   </tr>
-</table>
+</table>  
    
+<table>
+  <tr>
+    <td align="left"><img src="https://user-images.githubusercontent.com/54944069/125978532-ce682f00-1134-46ba-96b0-119fb71c9df7.jpeg" width="720px" alt=""/></a></td>
+  </tr>
+</table>  
+  
 ## :checkered_flag: Presentation    
 컨퍼런스 발표영상과 보고서입니다. 자세한 분석 내용은 아래 링크를 통해 확인해주세요!  
 * [![GoogleDrive Badge](https://img.shields.io/badge/REPORT-405263?style=flat-square&logo=Quip&link=https://drive.google.com/file/d/1VnYsB8k4Fxu6UFhAxuTi4m01BjoH2uwS/view?usp=sharing)]()
