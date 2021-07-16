@@ -17,7 +17,11 @@ Steam에서 제공하는 Multimodal 데이터를 보다 다양한 방법을 통�
   
   
 ## :checkered_flag: Contributors ##  
-투빅스 13기 - 15기  
- | <img src="" width="200" > |<img src="" width="200" >| <img src="https://user-images.githubusercontent.com/54944069/125926011-173ecd1b-db58-4d69-8aac-e20fbad20b15.jpeg" width="200" height="200" > | <img src="" width="200" > |
- | :-: | :-: | :-: | :-: |
- |  |  | [hrlee113](https://github.com/hrlee113) |  |
+투빅스 13기 ・ 14기 ・ 15기가 함께 하였습니다😃  
+ | <img src="" width="200" > |<img src="" width="200" >| <img src="https://user-images.githubusercontent.com/54944069/125926011-173ecd1b-db58-4d69-8aac-e20fbad20b15.jpeg" width="200" height="200" > | 
+ | :-: | :-: | :-: | 
+ |  | [Jieun Park](https://github.com/Jieun-Enna) | [Hyerin Lee](https://github.com/hrlee113) |  
+   
+  | <img src="" width="200" > |<img src="" width="200" >| <img src="" width="200" height="200" > | 
+ | :-: | :-: | :-: |
+| [Donghyun Kim](https://github.com/DataAnalyst486) | [Seongbeom Lee](https://github.com/SeongBeomLEE) | [Ayeon Jang](https://github.com/JangAyeon) | 
