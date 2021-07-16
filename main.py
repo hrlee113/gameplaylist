@@ -6,7 +6,7 @@ from nlp.lda import genre_lda, content_lda, review_lda
 from nlp.sentiment import sentiment_analysis
 # from embedding.game2vec import game2vec
 from model.gmf import gmf_run
-from model.ncf import ncf_run
+from model.mlp import mlp_run
 from model.nmf import nmf_run
 from model.dcn import dcn_p_run, dcn_s_run
 from model.deepfm import deepfm_run
@@ -55,12 +55,12 @@ if __name__ == '__main__':
     print('AUC : {:.4f}'.format(gmf_auc))
     print('F1 Score : {:.4f}'.format(gmf_f1))
 
-    # ----- ncf
-    _, ncf_acc, ncf_auc, ncf_f1 = ncf_run(train_modified, val_modified, test_modified, gamevec)
-    print('========== NCF Score ==========')
-    print('ACC : {:.4f}'.format(ncf_acc))
-    print('AUC : {:.4f}'.format(ncf_auc))
-    print('F1 Score : {:.4f}'.format(ncf_f1))
+    # ----- mlp
+    _, mlp_acc, mlp_auc, mlp_f1 = mlp_run(train_modified, val_modified, test_modified, gamevec)
+    print('========== MLP Score ==========')
+    print('ACC : {:.4f}'.format(mlp_acc))
+    print('AUC : {:.4f}'.format(mlp_auc))
+    print('F1 Score : {:.4f}'.format(mlp_f1))
 
     # ----- nmf
     nmf_acc, nmf_auc, nmf_f1 = nmf_run(train_modified, val_modified, test_modified, gamevec)
