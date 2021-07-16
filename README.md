@@ -7,7 +7,7 @@
   </tr>
 </table>
   
-Steam에서 제공하는 Multimodal 데이터를 보다 다양한 방법을 통해 이용하여 **개인화된 추천 게임플레이리스트**를 제공하는 서비스입니다.
+Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용하여 **개인화된 추천 게임플레이리스트**를 제공하는 서비스입니다.
   
 
 ## :checkered_flag: Presentation    
