@@ -7,9 +7,9 @@ from model.model_prep import run
 Model
 '''
 
-class NCF(nn.Module):
+class MLP(nn.Module):
     def __init__(self, user_num, factor_num):
-        super(NCF, self).__init__()
+        super(MLP, self).__init__()
 
         # 유저 임베딩
         self.user_embedding = nn.Embedding(user_num, factor_num)
@@ -43,6 +43,6 @@ class NCF(nn.Module):
 Run
 '''
     
-def ncf_run(train_modified, val_modified, test_modified, gamevec):
-    test_loss, test_accuracy, test_auc, test_f1 = run('NCF', train_modified, val_modified, test_modified, gamevec)
+def mlp_run(train_modified, val_modified, test_modified, gamevec):
+    test_loss, test_accuracy, test_auc, test_f1 = run('MLP', train_modified, val_modified, test_modified, gamevec)
     return test_loss, test_accuracy, test_auc, test_f1
