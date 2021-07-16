@@ -19,7 +19,7 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
 ## :checkered_flag: Result  
   
 ## :checkered_flag: Contributors ##  
-빅데이터 동아리 [투빅스(ToBig's)](http://www.datamarket.kr/xe/) 13・14・15기가 함께 하였습니다😃  
+빅데이터 동아리 [ToBig's](http://www.datamarket.kr/xe/) 13・14・15기가 함께 하였습니다😃  
  | <img src="" width="200" > |<img src="" width="200" >| <img src="https://user-images.githubusercontent.com/54944069/125926011-173ecd1b-db58-4d69-8aac-e20fbad20b15.jpeg" width="200" height="200" > | 
  | :-: | :-: | :-: | 
  |  | [Jieun Park](https://github.com/Jieun-Enna) | [Hyerin Lee](https://github.com/hrlee113) |  
