@@ -20,7 +20,7 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
   
 #### 1. 게임・유저 데이터  
 > NLP method(LDA, Sentiment Analysis)를 통해 Textual Feature를 생성했습니다.  
-> 그 외 변수들 또한 Feature Engineering을 진행했습니다.  
+> 그 외 변수들은 Feature Engineering을 통해 파생변수르 생성했습니다.  
 #### 2. Game2Vec  
 > Play Sequence, 이미지, 텍스트 데이터를 각각 Prod2Vec, Convolutional AutoEncoder, AutoEncoder를 이용하여 Multimodal Feature인 Game2Vec 을 생성했습니다.  
 #### 3. Recommender System  
