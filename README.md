@@ -32,18 +32,18 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
   
 ## :checkered_flag: Result  
 ### Model Evaluation  
-| Model | Game2Vec 사용 | Test ACC | Test AUC | Test F1 |  - |
-| :-: | :-: | :-: | :-: | :-: | |  
+| Model | Game2Vec 사용 | Test ACC | Test AUC | Test F1 | - |  
+| :-: | :-: | :-: | :-: | :-: | :-: |   
 | Vanilla GMF | ❌ | 78.51% | 0.7746 | 0.8711 | |  
-| GMF | ⭕ | 83.62% | 0.8526 | 0.8956 | | 
-| MLP | ⭕ | 81.50% | 0.8391 | 0.8837 | |  
-| **NMF** | ⭕ | **84.33%** | 0.8715 | **0.9007** | **:crown:** | 
-| DCN Parallel | ⭕ | 82.31% | 0.8463 | 0.8868 | | 
-| DCN Stacked | ⭕ | 82.55% | 0.8500 | 0.8876 | | 
-| DeepFM | ⭕ | 80.61% | 0.8194 | 0.8868 | | 
+| GMF | ⭕ | 83.62% | 0.8526 | 0.8956 | |  
+| MLP | ⭕ | 81.50% | 0.8391 | 0.8837 | |   
+| **NMF** | ⭕ | **84.33%** | 0.8715 | **0.9007** | **:crown: Best Model** |  
+| DCN Parallel | ⭕ | 82.31% | 0.8463 | 0.8868 | |  
+| DCN Stacked | ⭕ | 82.55% | 0.8500 | 0.8876 | |  
+| DeepFM | ⭕ | 80.61% | 0.8194 | 0.8868 | |  
    
 * **Multimodal Feature**인 **Game2Vec**을 사용했을 때 모델 성능이 향상했습니다.  
-* Neural Collaborative Filtering 계열의 모델들의 성능이 좋았습니다.  
+* Neural Collaborative Filtering 계열 모델들의 성능이 좋았습니다.  
   
   
 ### Web Page  
@@ -55,7 +55,7 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
   
   
 ## :checkered_flag: Contributors ##  
-빅데이터 동아리 [ToBig's](http://www.datamarket.kr/xe/) 13・14・15기가 함께 하였습니다😃  
+빅데이터 동아리 [ToBig's](http://www.datamarket.kr/xe/) 13기・14기・15기가 함께 하였습니다😃  
  |<img src="" width="200" >| <img src="https://user-images.githubusercontent.com/54944069/125926011-173ecd1b-db58-4d69-8aac-e20fbad20b15.jpeg" width="200" height="200" > | <img src="https://user-images.githubusercontent.com/54944069/125942489-e98bbb44-06ab-4675-9540-885635c7999a.JPG" width="200" > |
  | :-: | :-: | :-: | 
  | [Jieun Park](https://github.com/Jieun-Enna) | [Hyerin Lee](https://github.com/hrlee113) | [Donghyun Kim](https://github.com/DataAnalyst486) | 
