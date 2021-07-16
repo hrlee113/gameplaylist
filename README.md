@@ -15,11 +15,14 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
   <tr>
     <td align="left"><img src="https://user-images.githubusercontent.com/54944069/125940720-e3d6e88d-6cc0-4d61-9735-51540b6e9e10.png" width="720px" alt=""/></a></td>
   </tr>
-</table>
+</table> 
+  
+  
 * 게임 ・ 유저 데이터 : NLP method(LDA, Sentiment Analysis)를 통해 textual Feature를 생성합니다. 그 외 변수들 또한 Feature Engineering을 통해 파생변수를 생성합니다.  
 * Game2Vec : Play Sequence, 이미지, 텍스트 데이터를 각각 Prod2Vec, Convolutional AutoEncoder, AutoEncoder를 이용하여 Multimodal Feature인 Game2Vec 을 생성합니다.  
 * Recommender System : 앞에서 생성한 Game2Vec을 모델 레이어에 추가하여 학습시킵니다.  
 * 시연 : 추천 게임플레이리스트를 제공하는 웹 페이지를 구현하였습니다.
+  
   
 ## :checkered_flag: Result  
 ### Model Evaluation  
