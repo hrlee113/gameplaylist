@@ -16,6 +16,7 @@ Steam에서 제공하는 Multimodal 데이터를 보다 다양한 방법을 통�
   
 ## :checkered_flag: Model  
   
+## :checkered_flag: Result  
   
 ## :checkered_flag: Contributors ##  
 투빅스 13기 ・ 14기 ・ 15기가 함께 하였습니다 😃  
