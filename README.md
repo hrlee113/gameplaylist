@@ -11,13 +11,14 @@ Steam에서 제공하는 Multimodal 데이터를 보다 다양한 방법을 통�
   
 
 ## :checkered_flag: Presentation    
-  
+컨퍼런스 발표 영상과 보고서입니다. 자세한 분석 내용은 아래 링크를 참조해주세요.
+
   
 ## :checkered_flag: Model  
   
   
 ## :checkered_flag: Contributors ##  
-투빅스 13기 ・ 14기 ・ 15기가 함께 하였습니다😃  
+투빅스 13기 ・ 14기 ・ 15기가 함께 하였습니다 😃  
  | <img src="" width="200" > |<img src="" width="200" >| <img src="https://user-images.githubusercontent.com/54944069/125926011-173ecd1b-db58-4d69-8aac-e20fbad20b15.jpeg" width="200" height="200" > | 
  | :-: | :-: | :-: | 
  |  | [Jieun Park](https://github.com/Jieun-Enna) | [Hyerin Lee](https://github.com/hrlee113) |  
