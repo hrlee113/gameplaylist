@@ -9,8 +9,8 @@ from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 from utils import roc_auc_compute_fn, f1_score_compute_fn, torch_device
 from model.gmf import GMF
-from model.ncf import NCF
-from model.nmf import GMF_and_NCF
+from model.ncf import MLP
+from model.nmf import NMF
 from model.dcn import DCN_PARALLEL, DCN_STACKED
 
 '''
@@ -134,10 +134,10 @@ def run(model_text, train_modified, val_modified, test_modified, gamevec, model_
     # 모델 정의
     if model_text == 'GMF':
         model = GMF(user_num = user_num, factor_num = factor_num).to(DEVICE)
-    elif model_text == 'NCF':
-        model = NCF(user_num = user_num, factor_num = factor_num).to(DEVICE)
+    elif model_text == 'MLP':
+        model = MLP(user_num = user_num, factor_num = factor_num).to(DEVICE)
     elif model_text == 'NMF':
-        model = GMF_and_NCF(user_num = user_num, factor_num = factor_num).to(DEVICE)
+        model = NMF(user_num = user_num, factor_num = factor_num).to(DEVICE)
     elif model_text == 'DCN_PARALLEL':
         model = DCN_PARALLEL(user_num = user_num, factor_num = factor_num).to(DEVICE)
     elif model_text == 'DCN_STACKED':
