@@ -16,9 +16,13 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
     <td align="left"><img src="https://user-images.githubusercontent.com/54944069/125940720-e3d6e88d-6cc0-4d61-9735-51540b6e9e10.png" width="720px" alt=""/></a></td>
   </tr>
 </table>
-
+* 게임 ・ 유저 데이터 : NLP method(LDA, Sentiment Analysis)를 통해 textual Feature를 생성합니다. 그 외 변수들 또한 Feature Engineering을 통해 파생변수를 생성합니다.  
+* Game2Vec : Play Sequence, 이미지, 텍스트 데이터를 각각 Prod2Vec, Convolutional AutoEncoder, AutoEncoder를 이용하여 Multimodal Feature인 Game2Vec 을 생성합니다.  
+* Recommender System : 앞에서 생성한 Game2Vec을 모델 레이어에 추가하여 학습시킵니다.  
+* 시연 : 추천 게임플레이리스트를 제공하는 웹 페이지를 구현하였습니다.
   
 ## :checkered_flag: Result  
+### Model Evaluation  
 | Model | Game2Vec 사용 | Test ACC | Test AUC | Test F1 |  
 | :-: | :-: | :-: | :-: | :-: |  
 | Vanilla GMF | ❌ | 78.51% | 0.7746 | 0.8711 |  
@@ -29,6 +33,7 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
 | DCN Stacked | ⭕ | 82.55% | 0.8500 | 0.8876 | 
 | DeepFM | ⭕ | 80.61% | 0.8194 | 0.8868 | 
    
+### Web Page  
    
 ## :checkered_flag: Presentation    
 컨퍼런스 발표영상과 보고서입니다. 자세한 분석 내용은 아래 링크를 통해 확인해주세요!  
@@ -38,10 +43,10 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
   
 ## :checkered_flag: Contributors ##  
 빅데이터 동아리 [ToBig's](http://www.datamarket.kr/xe/) 13・14・15기가 함께 하였습니다😃  
- |<img src="https://user-images.githubusercontent.com/54944069/125942584-5cac01fb-fd28-4e82-88d3-87147edb6908.jpg" width="200" >| <img src="https://user-images.githubusercontent.com/54944069/125926011-173ecd1b-db58-4d69-8aac-e20fbad20b15.jpeg" width="200" height="200" > | <img src="https://user-images.githubusercontent.com/54944069/125942489-e98bbb44-06ab-4675-9540-885635c7999a.JPG" width="200" > |
+ |<img src="" width="200" >| <img src="https://user-images.githubusercontent.com/54944069/125926011-173ecd1b-db58-4d69-8aac-e20fbad20b15.jpeg" width="200" height="200" > | <img src="https://user-images.githubusercontent.com/54944069/125942489-e98bbb44-06ab-4675-9540-885635c7999a.JPG" width="200" > |
  | :-: | :-: | :-: | 
  | [Jieun Park](https://github.com/Jieun-Enna) | [Hyerin Lee](https://github.com/hrlee113) | [Donghyun Kim](https://github.com/DataAnalyst486) | 
    
-  | <img src="" width="200" > |<img src="https://user-images.githubusercontent.com/54944069/125942330-26e910a6-82ae-4b68-a4e9-8e5ddf53a534.jpg" width="200" >| <img src="https://user-images.githubusercontent.com/54944069/125941896-ef7e923b-dda5-44a3-b830-9318ad730dff.jpg" width="200" > | 
+  | <img src="https://user-images.githubusercontent.com/54944069/125942584-5cac01fb-fd28-4e82-88d3-87147edb6908.jpg" width="200" > |<img src="https://user-images.githubusercontent.com/54944069/125942330-26e910a6-82ae-4b68-a4e9-8e5ddf53a534.jpg" width="200" >| <img src="https://user-images.githubusercontent.com/54944069/125941896-ef7e923b-dda5-44a3-b830-9318ad730dff.jpg" width="200" > | 
  | :-: | :-: | :-: |
  | [Seongbeom Lee](https://github.com/SeongBeomLEE) | [Ayeon Jang](https://github.com/JangAyeon) | [Sangyeon Jo]() | 
