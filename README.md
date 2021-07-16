@@ -38,10 +38,10 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
   
 ## :checkered_flag: Contributors ##  
 빅데이터 동아리 [ToBig's](http://www.datamarket.kr/xe/) 13・14・15기가 함께 하였습니다😃  
- | <img src="" width="200" > |<img src="" width="200" >| <img src="https://user-images.githubusercontent.com/54944069/125926011-173ecd1b-db58-4d69-8aac-e20fbad20b15.jpeg" width="200" height="200" > | 
+ |<img src="https://user-images.githubusercontent.com/54944069/125942584-5cac01fb-fd28-4e82-88d3-87147edb6908.jpg" width="200" >| <img src="https://user-images.githubusercontent.com/54944069/125926011-173ecd1b-db58-4d69-8aac-e20fbad20b15.jpeg" width="200" height="200" > | <img src="https://user-images.githubusercontent.com/54944069/125942489-e98bbb44-06ab-4675-9540-885635c7999a.JPG" width="200" > |
  | :-: | :-: | :-: | 
- |  | [Jieun Park](https://github.com/Jieun-Enna) | [Hyerin Lee](https://github.com/hrlee113) |  
+ | [Jieun Park](https://github.com/Jieun-Enna) | [Hyerin Lee](https://github.com/hrlee113) | [Donghyun Kim](https://github.com/DataAnalyst486) | 
    
-  | <img src="" width="200" > |<img src="" width="200" >| <img src="" width="200" height="200" > | 
+  | <img src="" width="200" > |<img src="https://user-images.githubusercontent.com/54944069/125942330-26e910a6-82ae-4b68-a4e9-8e5ddf53a534.jpg" width="200" >| <img src="https://user-images.githubusercontent.com/54944069/125941896-ef7e923b-dda5-44a3-b830-9318ad730dff.jpg" width="200" > | 
  | :-: | :-: | :-: |
-| [Donghyun Kim](https://github.com/DataAnalyst486) | [Seongbeom Lee](https://github.com/SeongBeomLEE) | [Ayeon Jang](https://github.com/JangAyeon) | 
+ | [Seongbeom Lee](https://github.com/SeongBeomLEE) | [Ayeon Jang](https://github.com/JangAyeon) | [Sangyeon Jo]() | 
