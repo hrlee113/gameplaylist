@@ -49,21 +49,21 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
 ### Web Page  
 [:mag: Page Link](https://tobigs-steamgame.github.io/recsys/)  
   
-#### 서비스 화면  
+* **서비스 화면**  
 <table>
   <tr>
     <td align="left"><img src="https://user-images.githubusercontent.com/54944069/125979454-24dd2fea-aa34-4113-a3cf-ad5c05564ea1.jpeg" width="720px" alt=""/></a></td>
   </tr>
 </table>  
   
-#### 선호 게임 리스트  
+* **선호 게임 리스트**  
 <table>
   <tr>
     <td align="left"><img src="https://user-images.githubusercontent.com/54944069/125979349-516df9c2-ea5b-49ea-9c42-22ca3c538be7.jpeg" width="720px" alt=""/></a></td>
   </tr>
 </table>  
   
-#### 시연 예시1  
+* **시연 예시1**  
 <table>
   <tr>
     <td align="left"><img src="https://user-images.githubusercontent.com/54944069/125979290-85d1f963-7d59-4f07-947c-398f091dc1ba.jpeg" width="720px" alt=""/></a></td>
@@ -76,7 +76,7 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
   </tr>
 </table>
   
-#### 시연 예시2  
+* **시연 예시2**  
 <table>
   <tr>
     <td align="left"><img src="https://user-images.githubusercontent.com/54944069/125978582-14755682-4b09-4821-a659-b200265c8f25.jpeg" width="720px" alt=""/></a></td>
