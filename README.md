@@ -112,8 +112,7 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
  ## 🏁 File Directory ## 
  
  ```shell
-겜플리
-|  
+겜플리  
 ├── 1. data
 │   ├── steam_game_meta_data_final.csv                # 게임 메타 데이터
 │   ├── steam_user_meta_data_final_v1.csv             # 유저 메타 데이터
