@@ -107,4 +107,51 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
    
   | <img src="https://user-images.githubusercontent.com/54944069/125942584-5cac01fb-fd28-4e82-88d3-87147edb6908.jpg" width="200" > |<img src="https://user-images.githubusercontent.com/54944069/125942330-26e910a6-82ae-4b68-a4e9-8e5ddf53a534.jpg" width="200" >| <img src="https://user-images.githubusercontent.com/54944069/125941896-ef7e923b-dda5-44a3-b830-9318ad730dff.jpg" width="200" > | 
  | :-: | :-: | :-: |
- | [Seongbeom Lee](https://github.com/SeongBeomLEE) | [Ayeon Jang](https://github.com/JangAyeon) | [Sangyeon Jo]() | 
+ | [Seongbeom Lee](https://github.com/SeongBeomLEE) | [Ayeon Jang](https://github.com/JangAyeon) | [Sangyeon Jo]() |  
+ 
+ ## 🏁 File Directory ## 
+ 
+ ```shell
+겜플리
+|  
+├── 1. data
+│   ├── steam_game_meta_data_final.csv                # 게임 메타 데이터
+│   ├── steam_user_meta_data_final_v1.csv             # 유저 메타 데이터
+│   ├── datasteam_reviews_clean_result_train_v2.csv   # 리뷰 데이터
+│   ├── norm_game2vec.pickle                          # Game2Vec
+│   └── ...
+│   
+├── 2. prep
+│   ├── game_prep.py                # 게임 데이터 preprocessing
+│   ├── user_prep.py                # 유저 데이터 preprocessing
+│   ├── review_prep.py              # 리뷰 데이터 preprocessing
+│   └── dataloader.py               # 게임, 유저, 리뷰 데이터 병합 (final data)
+│
+├── 3. nlp
+│   ├── lda.py                      # LDA
+│   └── sentiment.py                # Sentiment Analysis
+│
+├── 4. embedding # Game2Vec 
+│   ├── image_ae.py                 # 게임 이미지 벡터화 (CNN AutoEncoder)
+│   ├── text_ae.py                  # 게임 장르 텍스트 벡터화 (AutoEncoder)
+│   ├── sequence_prod2vec.py        # 게임 이용 시퀀스 벡터화 (Prod2Vec)
+│   └── game2vec.py                 # 최종 Game2Vec 벡터
+│
+├── 5. model
+│   ├── model_prep.py 
+│   │ 
+│   ├── 4-1. Neural Collaborative Filtering                
+│   │   ├── gmf.py                  # Generalized Matrix Factorization
+│   │   ├── mlp.py                  # Multi-Layer Perceptron
+│   │   └── nmf.py                  # Neural Matrix Factorization
+│   │ 
+│   └── 4-2. CTR prediction                
+│       ├── deepfm.py               # Deep Factorization Machine
+│       └── dcn.py                  # Deep Cross Network
+│
+├── utils.py
+└── main.py
+
+
+```
+
