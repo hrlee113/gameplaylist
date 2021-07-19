@@ -64,12 +64,14 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
 </table>  
   
 * **시연 예시1**  
+> 선호 반영   
 <table>
   <tr>
     <td align="left"><img src="https://user-images.githubusercontent.com/54944069/125979290-85d1f963-7d59-4f07-947c-398f091dc1ba.jpeg" width="720px" alt=""/></a></td>
   </tr>
 </table>
   
+> 추천
 <table>
   <tr>
     <td align="left"><img src="https://user-images.githubusercontent.com/54944069/125979147-66b6fafb-5405-4c80-9f16-6dfd1a9240fd.jpeg" width="720px" alt=""/></a></td>
@@ -77,12 +79,14 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
 </table>
   
 * **시연 예시2**  
+> 선호 반영  
 <table>
   <tr>
     <td align="left"><img src="https://user-images.githubusercontent.com/54944069/125978582-14755682-4b09-4821-a659-b200265c8f25.jpeg" width="720px" alt=""/></a></td>
   </tr>
 </table>  
    
+> 추천   
 <table>
   <tr>
     <td align="left"><img src="https://user-images.githubusercontent.com/54944069/125978532-ce682f00-1134-46ba-96b0-119fb71c9df7.jpeg" width="720px" alt=""/></a></td>
