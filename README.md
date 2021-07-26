@@ -139,12 +139,12 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
 ├── 5. model
 │   ├── model_prep.py 
 │   │ 
-│   ├── 4-1. Neural Collaborative Filtering                
+│   ├── 5-1. Neural Collaborative Filtering                
 │   │   ├── gmf.py                            # Generalized Matrix Factorization
 │   │   ├── mlp.py                            # Multi-Layer Perceptron
 │   │   └── nmf.py                            # Neural Matrix Factorization
 │   │ 
-│   └── 4-2. CTR prediction                
+│   └── 5-2. CTR prediction                
 │       ├── deepfm.py                         # Deep Factorization Machine
 │       └── dcn.py                            # Deep Cross Network
 │
